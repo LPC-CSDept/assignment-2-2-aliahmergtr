@@ -1,0 +1,21 @@
+Programming Assignment 2-2
+Github main.py file link: https://github.com/LPC-CSDept/assignment-2-2-aliahmergtr/blob/main/main.py 
+
+Problem Definition
+The problem solved by this program is that it can calculate and display a temperature in fahrenheit when given the input of a temperature in celsius, converting the celsius to fahrenheit.
+
+Input and Output
+input : any number intended to be a temperature in celsius
+output : float with two decimal places for the fahrenheit value from celsius input
+
+Variable Explanation
+celcius: stores user input for celsius amount as a float.
+fahrenheit: set equal to 1.8 * celcius + 32
+
+Flow Chart
+
+
+Errors and Lessons
+My first error came from trying to multiply 9/5 to my celcius variable since the user input is defaulted to be a string, and you can’t multiply to a string. I fixed this by converting the standard input block to a float like this “celcius = float(input(...))”, enabling the program to correctly calculate the fahrenheit amount when given celsius.
+My second and final mistake was forgetting to add two decimal places when printing the calculated fahrenheit value, easily fixed through adding “:.2f” to the end of my reference to the fahrenheit variable in the print statement.
+Through this assignment, I’ve learned to calculate a fahrenheit amount given a celsius temperature in python.
